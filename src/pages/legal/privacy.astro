@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import '../../styles/legal.css';
+---
+
+<BaseLayout title="Privacy Policy — wArcxs" description="Privacy Policy for wArcxs.">
+  <div class="legal">
+    <header class="ltop">
+      <a class="wm" href="/"><span class="lm">wArcxs</span></a>
+      <a class="back" href="/">← Back</a>
+    </header>
+    <main class="lmain">
+      <h1>Privacy Policy</h1>
+      <p class="upd">Last updated: July 2026</p>
+
+      <p>This policy explains what wArcxs ("we") collects when you use our products and services — including
+        wArcxs, wArcxs Licenses and any other product we offer — why, and who we share it with. We keep it to
+        what the Services need.</p>
+
+      <h2>What we collect</h2>
+      <ul>
+        <li><strong>Account</strong> — your email and basic profile from Google sign-in, and a Discord ID if you link
+          one.</li>
+        <li><strong>Access request</strong> — the answers you give in a request form, where a product is gated.</li>
+        <li><strong>Billing</strong> — handled by Stripe. We store your Stripe customer/subscription identifiers, not
+          your card details.</li>
+        <li><strong>Usage & service data</strong> — the records each product needs to run: for example, licenses,
+          seats, token balances and job records; and, for licensing, the license keys, products and activation data
+          (such as machine fingerprints and IPs) used to validate keys.</li>
+        <li><strong>Files you submit</strong> — where a product processes uploads (for example, JARs sent to Lock
+          Master), they are uploaded to storage and processed to produce a result, then <strong>not retained</strong>
+          beyond what's needed to deliver the job. We do not execute your code.</li>
+      </ul>
+
+      <h2>How we use it</h2>
+      <p>To provide and secure the Services: authenticate you, run jobs and validations, manage licenses and billing,
+        send account and support emails, and prevent abuse.</p>
+
+      <h2>Who we share it with</h2>
+      <p>We use a small set of processors to run the Services:</p>
+      <ul>
+        <li><strong>Google</strong> — sign-in (authentication) and, for some products, the compute that runs jobs
+          (Google Cloud Run).</li>
+        <li><strong>Stripe</strong> — payments and subscription management.</li>
+        <li><strong>Cloudflare</strong> — DNS, email routing, and the object storage (R2) that uploaded and produced
+          files pass through.</li>
+        <li><strong>Resend</strong> — transactional email delivery.</li>
+        <li><strong>Our hosting provider</strong> — a virtual private server that runs the backends and databases (your
+          account, licenses, service and job records).</li>
+      </ul>
+      <p>We don't sell your data. We only disclose it when required by law.</p>
+
+      <h2>Cookies</h2>
+      <p>We use a single essential cookie to keep you signed in (an <code>HttpOnly</code> session cookie), plus a small
+        non-sensitive flag in your browser's local storage to remember you're logged in. We don't use tracking or
+        advertising cookies.</p>
+
+      <h2>Retention</h2>
+      <p>We keep account, billing and service records for as long as you have an account and as required for
+        legal/accounting purposes. Files you submit for processing are not retained beyond delivery of the job.</p>
+
+      <h2>Your rights</h2>
+      <p>You can request access to, correction of, or deletion of your personal data. Email us and we'll handle it.</p>
+
+      <h2>Contact</h2>
+      <p>Privacy questions or requests: <a href="mailto:hello@warcxs.com">hello@warcxs.com</a>.</p>
+    </main>
+    <footer class="lfoot">
+      <span>2026 wArcxs &mdash; &copy; All rights reserved</span>
+      <nav><a href="/about">About</a><a href="/legal/terms">Terms</a><a href="/legal/privacy">Privacy</a><a href="/legal/refunds">Refunds</a></nav>
+    </footer>
+  </div>
+</BaseLayout>
