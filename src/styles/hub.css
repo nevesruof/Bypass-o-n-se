@@ -1,3 +1,0 @@
-.hub .al{color:inherit;text-underline-offset:3px;white-space:nowrap;text-decoration:underline 1px;transition:color .2s}.hub .al:hover{color:#1b1206}.hub .al .arw{margin-left:2px;transition:transform .25s cubic-bezier(.16,1,.3,1);display:inline-block}.hub .al:hover .arw{transform:translate(4px)}.hub .fine a{color:inherit;border-bottom:1px solid #0000;text-decoration:none;transition:border-color .2s}.hub .fine a:hover{border-color:currentColor}
-
-.wm-static-home{height:clamp(5.85rem,12.5vw,9rem);display:flex;align-items:center;justify-content:center;pointer-events:none;user-select:none;-webkit-user-drag:none}.wm-static-home .wmlogo-home{display:block;width:clamp(13rem,23.8vw,16rem);height:auto;max-height:100%;pointer-events:none;user-select:none;-webkit-user-drag:none}
